@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:app": "browserify browserify-index.js > public/browserify/app.js",
+    "build:test": "browserify test/tests.js > public/browserify/test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,7 @@
   "homepage": "https://github.com/kjirou/js-test-solutions#readme",
   "private": true,
   "devDependencies": {
+    "browserify": "^12.0.1",
     "expect.js": "^0.3.1",
     "http-server": "^0.8.5",
     "mocha": "^2.3.4",
