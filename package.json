@@ -24,7 +24,8 @@
   "devDependencies": {
     "expect.js": "^0.3.1",
     "http-server": "^0.8.5",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "testem": "^0.9.11"
   },
   "dependencies": {}
 }
